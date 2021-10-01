@@ -9,12 +9,13 @@ namespace DroneStuff
     {
         public GameObject PauseMenu;
         public float speed;
+        public bool DoNotAllowMovement = false;
         private Rigidbody2D rigid2d;
-        private bool DoNotAllowMovement = false;
         private AudioSource audioSource;
         public GameObject FrontLightIndicator;
         public GameObject BackLightIndicator1;
         public GameObject BackLightIndicator2;
+        public bool BlinkOverride = false;
 
         void Start()
         {
@@ -30,15 +31,31 @@ namespace DroneStuff
 
         public IEnumerator Blink()
         {
-            FrontLightIndicator.GetComponent<SpriteRenderer>().color = Color.cyan;
-            BackLightIndicator1.GetComponent<SpriteRenderer>().color = Color.red;
-            BackLightIndicator2.GetComponent<SpriteRenderer>().color = Color.red;
-            yield return new WaitForSecondsRealtime(1);
-            FrontLightIndicator.GetComponent<SpriteRenderer>().color = Color.gray;
-            BackLightIndicator1.GetComponent<SpriteRenderer>().color = Color.gray;
-            BackLightIndicator2.GetComponent<SpriteRenderer>().color = Color.gray;
-            yield return new WaitForSecondsRealtime(1);
-            StartCoroutine(Blink());
+            if (!BlinkOverride)
+            {
+                FrontLightIndicator.GetComponent<SpriteRenderer>().color = Color.cyan;
+                BackLightIndicator1.GetComponent<SpriteRenderer>().color = Color.red;
+                BackLightIndicator2.GetComponent<SpriteRenderer>().color = Color.red;
+                yield return new WaitForSecondsRealtime(1);
+                if (BlinkOverride)
+                {
+                    FrontLightIndicator.GetComponent<SpriteRenderer>().color = Color.yellow;
+                    BackLightIndicator1.GetComponent<SpriteRenderer>().color = Color.yellow;
+                    BackLightIndicator2.GetComponent<SpriteRenderer>().color = Color.yellow;
+                }
+                else
+                {
+                    FrontLightIndicator.GetComponent<SpriteRenderer>().color = Color.gray;
+                    BackLightIndicator1.GetComponent<SpriteRenderer>().color = Color.gray;
+                    BackLightIndicator2.GetComponent<SpriteRenderer>().color = Color.gray;
+                    yield return new WaitForSecondsRealtime(1);
+                }
+                StartCoroutine(Blink());
+            }
+            else
+            {
+                //...do nothing
+            }
         }
 
         void FixedUpdate()
