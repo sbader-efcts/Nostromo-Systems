@@ -1041,7 +1041,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.0184944
+  orthographic size: 2.449213
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1477,6 +1477,7 @@ MonoBehaviour:
   FrontLightIndicator: {fileID: 1315120348}
   BackLightIndicator1: {fileID: 1193734725}
   BackLightIndicator2: {fileID: 1491096152}
+  BlinkOverride: 0
 --- !u!50 &1004312976
 Rigidbody2D:
   serializedVersion: 4
