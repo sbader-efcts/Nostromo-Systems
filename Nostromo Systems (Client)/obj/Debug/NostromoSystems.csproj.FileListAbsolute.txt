@@ -1,0 +1,34 @@
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\bin\Debug\NostromoSystems.exe.config
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\bin\Debug\NostromoSystems.exe
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\bin\Debug\NostromoSystems.pdb
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.csprojAssemblyReference.cache
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.csproj.GenerateResource.cache
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.csproj.CoreCompileInputs.cache
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.exe
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.pdb
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.StartMenu.resources
+X:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\bin\Debug\NostromoSystems.exe.config
+X:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\bin\Debug\NostromoSystems.exe
+X:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\bin\Debug\NostromoSystems.pdb
+X:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.csprojAssemblyReference.cache
+X:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.StartMenu.resources
+X:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.Properties.Resources.resources
+X:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.csproj.GenerateResource.cache
+X:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.csproj.CoreCompileInputs.cache
+X:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.exe
+X:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.pdb
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.Properties.Form1.resources
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems\NostromoSystems\obj\Debug\NostromoSystems.Properties.Resources.resources
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\bin\Debug\NostromoSystems.exe.config
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\bin\Debug\NostromoSystems.exe
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\bin\Debug\NostromoSystems.pdb
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.csprojAssemblyReference.cache
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.StartMenu.resources
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.Properties.Form1.resources
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.Properties.Resources.resources
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.csproj.GenerateResource.cache
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.csproj.CoreCompileInputs.cache
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.exe
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.pdb
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.ConfirmationNewSave.resources
+E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.ConfirmationLoadSave.resources
