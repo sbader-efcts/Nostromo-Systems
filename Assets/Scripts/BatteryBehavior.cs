@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading;
 
 namespace DroneStuff
 {
@@ -16,6 +17,8 @@ namespace DroneStuff
         public float BatteryDrainRate;
         public List<Sprite> Sprites;
         public bool BatteryDecayOverride = false;
+        public int BatteryNum;
+        public GameObject NotSelf;
 
         void Start()
         {
