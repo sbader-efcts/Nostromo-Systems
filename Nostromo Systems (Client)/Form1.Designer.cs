@@ -53,9 +53,11 @@
             this.Graphicsexception = new System.Windows.Forms.Label();
             this.NSoptions = new System.Windows.Forms.Label();
             this.wymenulogo = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wymenulogo)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -307,7 +309,7 @@
             this.NRLdescexception.BackColor = System.Drawing.Color.Transparent;
             this.NRLdescexception.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NRLdescexception.ForeColor = System.Drawing.Color.White;
-            this.NRLdescexception.Location = new System.Drawing.Point(592, 621);
+            this.NRLdescexception.Location = new System.Drawing.Point(37, 218);
             this.NRLdescexception.Name = "NRLdescexception";
             this.NRLdescexception.Size = new System.Drawing.Size(257, 11);
             this.NRLdescexception.TabIndex = 34;
@@ -320,7 +322,7 @@
             this.noRobotslabelexception.AutoSize = true;
             this.noRobotslabelexception.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noRobotslabelexception.ForeColor = System.Drawing.Color.White;
-            this.noRobotslabelexception.Location = new System.Drawing.Point(559, 601);
+            this.noRobotslabelexception.Location = new System.Drawing.Point(15, 198);
             this.noRobotslabelexception.Name = "noRobotslabelexception";
             this.noRobotslabelexception.Size = new System.Drawing.Size(274, 17);
             this.noRobotslabelexception.TabIndex = 33;
@@ -335,7 +337,7 @@
             this.hahafunnydescexception.BackColor = System.Drawing.Color.Transparent;
             this.hahafunnydescexception.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hahafunnydescexception.ForeColor = System.Drawing.Color.White;
-            this.hahafunnydescexception.Location = new System.Drawing.Point(532, 473);
+            this.hahafunnydescexception.Location = new System.Drawing.Point(37, 252);
             this.hahafunnydescexception.MaximumSize = new System.Drawing.Size(325, 0);
             this.hahafunnydescexception.Name = "hahafunnydescexception";
             this.hahafunnydescexception.Size = new System.Drawing.Size(320, 44);
@@ -351,7 +353,7 @@
             this.IRLTGlabelexception.AutoSize = true;
             this.IRLTGlabelexception.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IRLTGlabelexception.ForeColor = System.Drawing.Color.White;
-            this.IRLTGlabelexception.Location = new System.Drawing.Point(559, 453);
+            this.IRLTGlabelexception.Location = new System.Drawing.Point(15, 232);
             this.IRLTGlabelexception.Name = "IRLTGlabelexception";
             this.IRLTGlabelexception.Size = new System.Drawing.Size(218, 17);
             this.IRLTGlabelexception.TabIndex = 31;
@@ -366,7 +368,7 @@
             this.PBChBxDescexception.BackColor = System.Drawing.Color.Transparent;
             this.PBChBxDescexception.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PBChBxDescexception.ForeColor = System.Drawing.Color.White;
-            this.PBChBxDescexception.Location = new System.Drawing.Point(538, 432);
+            this.PBChBxDescexception.Location = new System.Drawing.Point(37, 152);
             this.PBChBxDescexception.Name = "PBChBxDescexception";
             this.PBChBxDescexception.Size = new System.Drawing.Size(292, 11);
             this.PBChBxDescexception.TabIndex = 30;
@@ -379,7 +381,7 @@
             this.popupboxChBxexception.AutoSize = true;
             this.popupboxChBxexception.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.popupboxChBxexception.ForeColor = System.Drawing.Color.White;
-            this.popupboxChBxexception.Location = new System.Drawing.Point(559, 412);
+            this.popupboxChBxexception.Location = new System.Drawing.Point(15, 132);
             this.popupboxChBxexception.Name = "popupboxChBxexception";
             this.popupboxChBxexception.Size = new System.Drawing.Size(234, 17);
             this.popupboxChBxexception.TabIndex = 29;
@@ -394,7 +396,7 @@
             this.Preferancesexception.BackColor = System.Drawing.Color.Transparent;
             this.Preferancesexception.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Preferancesexception.ForeColor = System.Drawing.Color.White;
-            this.Preferancesexception.Location = new System.Drawing.Point(526, 565);
+            this.Preferancesexception.Location = new System.Drawing.Point(12, 173);
             this.Preferancesexception.Name = "Preferancesexception";
             this.Preferancesexception.Size = new System.Drawing.Size(129, 16);
             this.Preferancesexception.TabIndex = 28;
@@ -408,7 +410,7 @@
             this.Graphicsexception.BackColor = System.Drawing.Color.Transparent;
             this.Graphicsexception.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Graphicsexception.ForeColor = System.Drawing.Color.White;
-            this.Graphicsexception.Location = new System.Drawing.Point(527, 380);
+            this.Graphicsexception.Location = new System.Drawing.Point(12, 104);
             this.Graphicsexception.Name = "Graphicsexception";
             this.Graphicsexception.Size = new System.Drawing.Size(96, 16);
             this.Graphicsexception.TabIndex = 27;
@@ -422,7 +424,7 @@
             this.NSoptions.BackColor = System.Drawing.Color.Transparent;
             this.NSoptions.Font = new System.Drawing.Font("Lucida Console", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NSoptions.ForeColor = System.Drawing.Color.White;
-            this.NSoptions.Location = new System.Drawing.Point(526, 326);
+            this.NSoptions.Location = new System.Drawing.Point(163, 12);
             this.NSoptions.Name = "NSoptions";
             this.NSoptions.Size = new System.Drawing.Size(322, 21);
             this.NSoptions.TabIndex = 26;
@@ -433,7 +435,7 @@
             // wymenulogo
             // 
             this.wymenulogo.Image = ((System.Drawing.Image)(resources.GetObject("wymenulogo.Image")));
-            this.wymenulogo.Location = new System.Drawing.Point(513, 236);
+            this.wymenulogo.Location = new System.Drawing.Point(15, 12);
             this.wymenulogo.Name = "wymenulogo";
             this.wymenulogo.Size = new System.Drawing.Size(142, 76);
             this.wymenulogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -441,22 +443,34 @@
             this.wymenulogo.TabStop = false;
             this.wymenulogo.Visible = false;
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Controls.Add(this.wymenulogo);
+            this.panel1.Controls.Add(this.hahafunnydescexception);
+            this.panel1.Controls.Add(this.NRLdescexception);
+            this.panel1.Controls.Add(this.NSoptions);
+            this.panel1.Controls.Add(this.noRobotslabelexception);
+            this.panel1.Controls.Add(this.Graphicsexception);
+            this.panel1.Controls.Add(this.popupboxChBxexception);
+            this.panel1.Controls.Add(this.Preferancesexception);
+            this.panel1.Controls.Add(this.IRLTGlabelexception);
+            this.panel1.Controls.Add(this.PBChBxDescexception);
+            this.panel1.Location = new System.Drawing.Point(362, 238);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(626, 360);
+            this.panel1.TabIndex = 35;
+            this.panel1.Visible = false;
+            // 
             // StartMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1327, 741);
-            this.Controls.Add(this.NRLdescexception);
-            this.Controls.Add(this.noRobotslabelexception);
-            this.Controls.Add(this.hahafunnydescexception);
-            this.Controls.Add(this.IRLTGlabelexception);
-            this.Controls.Add(this.PBChBxDescexception);
-            this.Controls.Add(this.popupboxChBxexception);
-            this.Controls.Add(this.Preferancesexception);
-            this.Controls.Add(this.Graphicsexception);
-            this.Controls.Add(this.NSoptions);
-            this.Controls.Add(this.wymenulogo);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.NewSaveButton);
             this.Controls.Add(this.LoadSaveButton);
             this.Controls.Add(this.OptionsButton);
@@ -479,6 +493,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wymenulogo)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -509,6 +525,7 @@
         private System.Windows.Forms.Label Graphicsexception;
         private System.Windows.Forms.Label NSoptions;
         private System.Windows.Forms.PictureBox wymenulogo;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

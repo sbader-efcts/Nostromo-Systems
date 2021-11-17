@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Diagnostics;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Threading;
 
 public class menuStartup : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class menuStartup : MonoBehaviour
     public Text Exit;
     public Text Achievements;
     public Text Selection;
+    public AudioSource AudioSource;
     List<Text> Buttons = new List<Text>();
     int SelectionIndex;
     bool isLoaded = false;
@@ -21,6 +23,8 @@ public class menuStartup : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        var beep = MenuButtonBehavior.audioClips[Random.Range(0, 4)];
+        AudioSource.clip = beep;
         Selection = Play;
         Buttons.Add(Play);
         Buttons.Add(Load);
@@ -66,24 +70,32 @@ public class menuStartup : MonoBehaviour
             {
                 if (Selection == Buttons[0]) //play
                 {
+                    AudioSource.Play();
+                    StartCoroutine(WaitForSound(AudioSource.clip));
                     SceneManager.UnloadSceneAsync("TitleScreen");
                     SceneManager.LoadSceneAsync("Main");
                 }
                 else if (Selection == Buttons[1]) //load
                 {
-
+                    AudioSource.Play();
+                    StartCoroutine(WaitForSound(AudioSource.clip));
                 }
                 else if (Selection == Buttons[2]) //credits
                 {
-
+                    AudioSource.Play();
+                    StartCoroutine(WaitForSound(AudioSource.clip));
                 }
                 else if (Selection == Buttons[3]) //exit
                 {
+                    AudioSource.Play();
+                    StartCoroutine(WaitForSound(AudioSource.clip));
+                    Thread.Sleep(2000);
                     Application.Quit();
                 }
                 else if (Selection == Buttons[4]) //achievements
                 {
-
+                    AudioSource.Play();
+                    StartCoroutine(WaitForSound(AudioSource.clip));
                 }
             }
 
@@ -123,5 +135,10 @@ public class menuStartup : MonoBehaviour
         Exit.gameObject.SetActive(true);
         Achievements.gameObject.SetActive(true);
         isLoaded = true;
+    }
+
+    public IEnumerator WaitForSound(AudioClip Sound)
+    {
+        yield return new WaitUntil(() => AudioSource.isPlaying == false);
     }
 }

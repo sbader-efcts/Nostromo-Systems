@@ -166,6 +166,11 @@ namespace NostromoSystems
                         Font Font = new Font("Lucida Console", 36, FontStyle.Bold);
                         c.Font = Font;
                     }
+                    else if (c is Panel)
+                    {
+                        Font Font = new Font("Lucida Console", 36, FontStyle.Bold);
+                        c.Font = Font;
+                    }
                 }
             }
             Console.WriteLine(File.ReadAllText(@".\Saves\Save1\data.yutani"));
@@ -256,6 +261,7 @@ namespace NostromoSystems
                 Preferancesexception.Hide();
                 noRobotslabelexception.Hide();
                 NRLdescexception.Hide();
+                panel1.Hide();
                 isLoadSaveMenu = false;
                 isViewSaveMenu = false;
                 isNewSaveMenu = false;
@@ -388,6 +394,7 @@ namespace NostromoSystems
                     {
                         control.Hide();
                     }
+                    panel1.Show();
                     ReturnToMenu.Show();
                     MenuTitleLabel.Show();
                     popupboxChBxexception.Show();

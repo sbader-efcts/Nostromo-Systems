@@ -7,6 +7,10 @@ public class CameraFollow : MonoBehaviour
     public Transform target;
     public GameObject selfobject;
 
+    private void Start()
+    {
+        Cursor.visible = false;
+    }
     void Update()
     {
         transform.position = target.position;

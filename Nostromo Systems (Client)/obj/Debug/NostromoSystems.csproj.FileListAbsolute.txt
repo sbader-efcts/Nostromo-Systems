@@ -32,3 +32,16 @@ E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems
 E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.pdb
 E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.ConfirmationNewSave.resources
 E:\Personal\Projects\S NostromoSystems\Nostromo Systems (Client)\NostromoSystems\obj\Debug\NostromoSystems.ConfirmationLoadSave.resources
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\bin\Debug\NostromoSystems.exe.config
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\bin\Debug\NostromoSystems.exe
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\bin\Debug\NostromoSystems.pdb
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\obj\Debug\NostromoSystems.csprojAssemblyReference.cache
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\obj\Debug\NostromoSystems.StartMenu.resources
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\obj\Debug\NostromoSystems.ConfirmationNewSave.resources
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\obj\Debug\NostromoSystems.ConfirmationLoadSave.resources
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\obj\Debug\NostromoSystems.Properties.Form1.resources
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\obj\Debug\NostromoSystems.Properties.Resources.resources
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\obj\Debug\NostromoSystems.csproj.GenerateResource.cache
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\obj\Debug\NostromoSystems.csproj.CoreCompileInputs.cache
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\obj\Debug\NostromoSystems.exe
+E:\Personal\Projects\Nostromo Systems\Nostromo Systems (Game)\Nostromo Systems (Client)\obj\Debug\NostromoSystems.pdb
