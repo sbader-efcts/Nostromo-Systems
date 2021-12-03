@@ -5,6 +5,7 @@ using UnityEngine.Diagnostics;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Threading;
+using System.Diagnostics;
 
 public class menuStartup : MonoBehaviour
 {
@@ -79,6 +80,12 @@ public class menuStartup : MonoBehaviour
                 {
                     AudioSource.Play();
                     StartCoroutine(WaitForSound(AudioSource.clip));
+                    Process Client = new Process();
+                    Client.StartInfo.UseShellExecute = false;
+                    Client.StartInfo.FileName = "./../NostromoSystems.exe";
+                    Client.StartInfo.CreateNoWindow = true;
+                    Client.Start();
+                    Application.Quit();
                 }
                 else if (Selection == Buttons[2]) //credits
                 {

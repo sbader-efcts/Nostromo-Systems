@@ -15,6 +15,7 @@ namespace NostromoSystems
     public partial class ConfirmationNewSave : Form
     {
         SoundPlayer buttonSound = new SoundPlayer(@".\Graphics\button-41.wav");
+        public static string choice = null;
 
 
         public ConfirmationNewSave()
@@ -29,12 +30,14 @@ namespace NostromoSystems
 
         private void button2_Click(object sender, EventArgs e)
         {
+            choice = "no";
             buttonSound.Play();
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            choice = "yes";
             buttonSound.Play();
             this.Hide();
         }

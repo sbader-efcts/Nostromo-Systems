@@ -189,11 +189,11 @@
             // 
             this.MenuTitleLabel.AutoSize = true;
             this.MenuTitleLabel.BackColor = System.Drawing.Color.Transparent;
-            this.MenuTitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MenuTitleLabel.Font = new System.Drawing.Font("Lucida Console", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MenuTitleLabel.ForeColor = System.Drawing.Color.White;
             this.MenuTitleLabel.Location = new System.Drawing.Point(12, 9);
             this.MenuTitleLabel.Name = "MenuTitleLabel";
-            this.MenuTitleLabel.Size = new System.Drawing.Size(573, 73);
+            this.MenuTitleLabel.Size = new System.Drawing.Size(652, 65);
             this.MenuTitleLabel.TabIndex = 7;
             this.MenuTitleLabel.Text = "Nostromo Systems";
             this.MenuTitleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

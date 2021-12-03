@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using System.Media;
 using System.Resources;
 using System.IO;
+using System.Diagnostics;
 
 namespace NostromoSystems
 {
@@ -27,6 +28,7 @@ namespace NostromoSystems
         string voiceTEXT = File.ReadAllText(@".\Data\voice.txt");
         string iltgTEXT = File.ReadAllText(@".\Data\iltg.txt");
         string slotName;
+        private List<Label> saveSlots = new List<Label>();
         ConfirmationNewSave ConfirmationNewSave = new ConfirmationNewSave();
         ConfirmationLoadSave ConfirmationLoadSave = new ConfirmationLoadSave();
 
@@ -173,8 +175,7 @@ namespace NostromoSystems
                     }
                 }
             }
-            Console.WriteLine(File.ReadAllText(@".\Saves\Save1\data.yutani"));
-            //File.ReadLines(string path).Skip(int lines).Take(1).First();
+            SetSaveSlotsData();
         }
 
         private void button1_Click(object sender, EventArgs e)//fullscreenbutton
@@ -332,7 +333,33 @@ namespace NostromoSystems
                     ConfirmationNewSave.StartPosition = FormStartPosition.CenterParent;
                 }
 
+                string slotNum = slot.Name.Replace("SaveSlot", "");
+                ConfirmationNewSave.VisibleChanged += ConfirmationNewSave_VisibleChanged;
                 ConfirmationNewSave.Show();
+
+                void ConfirmationNewSave_VisibleChanged(object sender1, EventArgs e1)
+                {
+                    if (!ConfirmationNewSave.Visible)
+                    {
+                        if (ConfirmationNewSave.choice == "yes")
+                        {
+                            string filepath = "./Saves/Save" + slotNum + "/data.nssave";
+                            string filecontents = "activated\n" +
+                                                  "00:00:00\n" +
+                                                  "0%\n" +
+                                                  "01/01/0001\n";
+                            File.WriteAllText(filepath, filecontents);
+                            SetSaveSlotsData();
+                            Thread.Sleep(1500);
+                            Process Game = new Process();
+                            Game.StartInfo.UseShellExecute = false;
+                            Game.StartInfo.FileName = "./Game/NostromoSystems.exe";
+                            Game.StartInfo.CreateNoWindow = true;
+                            Game.Start();
+                            Environment.Exit(0);
+                        }
+                    }
+                }
             }
             void LoadSave_SlotClick()
             {
@@ -376,6 +403,32 @@ namespace NostromoSystems
         {
             Label ss = (Label)sender;
             ss.Cursor = System.Windows.Forms.Cursors.Hand;
+        }
+
+        private void SetSaveSlotsData()
+        {
+            foreach (Control c in Controls)
+            {
+                Console.WriteLine(c.Name);
+                if (c.Name.Contains("SaveSlot"))
+                {
+                    string saveSlotNum = c.Name.Replace("SaveSlot", "");
+                    string filepath = "./Saves/Save" + saveSlotNum + "/data.nssave";
+                    if (File.ReadAllText(filepath).Contains("empty"))
+                    {
+                        c.Font = new Font("Lucida Console", 36, FontStyle.Bold);
+                        c.Text = "<EMPTY>";
+                    }
+                    else
+                    {
+                        c.Font = new Font("Lucida Console", 10, FontStyle.Bold);
+                        string playtime = "Playtime: " + File.ReadLines(filepath).Skip(1).Take(1).First() + "\n";
+                        string percentComplete = "Completion: " + File.ReadLines(filepath).Skip(2).Take(1).First() + "\n";
+                        string creationDate = "Created: " + File.ReadLines(filepath).Skip(3).Take(1).First() + "\n";
+                        c.Text = "---\n" + playtime + percentComplete + creationDate + "---";
+                    }
+                }
+            }
         }
 
         private void OptionsButton_Click(object sender, EventArgs e)
